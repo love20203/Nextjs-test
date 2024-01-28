@@ -177,7 +177,7 @@ const Page = () => {
         <div className='grid grid-cols-3 max-[1100px]:grid-cols-2 max-[824px]:grid-cols-1 gap-x-2 gap-y-2'>
           {
             blogs.map((blog, index) => (
-              <BlogCard blogData={blog} />
+              <BlogCard blogData={blog} key={index}/>
             ))
           }
         </div>
@@ -196,12 +196,12 @@ const Page = () => {
               <span className='font-medium'>Transforming your </span>
               <span className='font-bold'>Ideas into reality</span>
               <div className='text-[#EAECF0] text-xl mt-10'>
-                Let's build something extraordinary together to  captivate your audience.
+                Lets build something extraordinary together to  captivate your audience.
               </div>
             </div>
             <div className='w-[330px] aspect-square rounded-full border border-white 
       bg-transparent flex flex-col gap-y-3 justify-center items-center text-white text-2xl'>
-              <span>Let's Work</span>
+              <span>Let&apos;s Work</span>
               <span>Together!</span>
             </div>
           </div>
