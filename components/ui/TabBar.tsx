@@ -20,7 +20,7 @@ const Tab = ({ isActive, text, handleClick, index}) => {
       <div className='flex gap-x-5 w-fit'>
       {
         options.map((option : any, index : number) => (
-          <Tab isActive={activeIndex == index} text={option} index={index} 
+          <Tab key={index} isActive={activeIndex == index} text={option} index={index} 
               handleClick={handleToggle}/>
         ))
       }
