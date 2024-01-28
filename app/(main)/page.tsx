@@ -80,7 +80,7 @@ const Page = () => {
             </div>
             <div className='flex-1 text-[#667085] font-medium leading-10 flex justify-end text-[32px]
               max-[1440px]:text-[24px] max-[1228px]:text-[16px]'>
-              <span className='leading-[48px] max-[1228px]:text-center'>"Immerse yourself in the latest knowledge and research from our team of software engineers and design professionals.</span>
+              <span className='leading-[48px] max-[1228px]:text-center'>Immerse yourself in the latest knowledge and research from our team of software engineers and design professionals.</span>
             </div>
           </div>
           <div className='grid grid-cols-2 rounded-[40px] bg-white p-2
