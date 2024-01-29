@@ -16,4 +16,5 @@ pnpm dev
 npm run test
 
 ## auth
-Developer: love20203, devflash
+Manager: love20203
+Developer: DevFlash
