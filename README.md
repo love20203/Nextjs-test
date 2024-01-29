@@ -14,3 +14,6 @@ pnpm dev
 ## Test getData function
 ```bash
 npm run test
+
+## auth
+Developer: love20203, devflash
